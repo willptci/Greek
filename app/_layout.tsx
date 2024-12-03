@@ -23,6 +23,7 @@ import { LogBox } from "react-native";
 
 export default function RootLayout() {
   const [loaded] = useFonts({
+    MajorMono: require("../assets/fonts/MajorMonoDisplay-Regular.ttf"),
     "Jakarta-Bold": require("../assets/fonts/PlusJakartaSans-Bold.ttf"),
     "Jakarta-ExtraBold": require("../assets/fonts/PlusJakartaSans-ExtraBold.ttf"),
     "Jakarta-ExtraLight": require("../assets/fonts/PlusJakartaSans-ExtraLight.ttf"),

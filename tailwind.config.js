@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        MajorMono: ["MajorMono"],
         Jakarta: ["Jakarta", "sans-serif"],
         JakartaBold: ["Jakarta-Bold", "sans-serif"],
         JakartaExtraBold: ["Jakarta-ExtraBold", "sans-serif"],
@@ -70,7 +71,7 @@ module.exports = {
         },
         general: {
           100: "#FFFCF5",
-          200: "#e9f0e1",
+          200: "#d1edca",
           300: "#a8d19d",
           400: "#608238",
           500: "#F6F8FA",
